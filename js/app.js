@@ -7,3 +7,13 @@ scrollUp.addEventListener('click', () => {
     behavior:'smooth',
   });
 });
+
+//Nav hambugerburger selections
+
+const burger = document.querySelector('#burguer-menu');
+const ul = document.querySelector('nav ul');
+const nav = document.querySelector('nav');
+
+burger.addEventListener('click', () => {
+  ul.classList.toggle('show');
+})
