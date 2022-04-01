@@ -8,7 +8,7 @@ scrollUp.addEventListener('click', () => {
   });
 });
 
-//Nav hambugerburger selections
+//Nav hambugerburger selections dropdown menu
 
 const burger = document.querySelector('#burger-menu');
 const ul = document.querySelector('nav ul');
@@ -24,8 +24,8 @@ burger.addEventListener('click', () => {
 
 const navLink = document.querySelectorAll('.nav-link');
 
-navLink.forEach((link) =>
-link.addEventListener('click',() => {
+navLink.forEach((joe) =>
+joe.addEventListener('click',() => {
   ul.classList.remove('show');
 })
 );
