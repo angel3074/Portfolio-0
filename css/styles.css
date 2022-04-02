@@ -346,8 +346,15 @@ footer {
   }
   .more-about{
     margin-top: 2rem;
-    flex-direction: column;
+    padding: 1rem 3.5rem;
+  }
+  .more-about h2{
+    text-align: center;
+
+  }
+  .more-about p{
     text-align: justify;
+
   }
   .bio{
     margin-top: -4rem;
@@ -366,4 +373,34 @@ footer {
   .skills{
     flex-direction: column;
   }
+  .icon{
+    width: 7.875rem;
+    height: 7.25rem;
+  }
+  .projects-container{
+    flex-direction: column;
+  }
+  .projects-container{
+    width: 30.875rem;
+    
+  }
+  .contact-form-container{
+    max-width: 23rem;
+  }
+}
+
+@media screen and (max-width){
+ .hero-img{
+   height: 37.5rem;
+   width: 23rem;
+ } 
+ .bio {
+   width: 18.3rem;
+ }
+ .projects-container{
+   width: 17.875rem;
+ }
+ .contact-form-container{
+   max-width: 17.75rem;
+ }
 }
