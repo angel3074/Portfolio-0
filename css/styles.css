@@ -201,10 +201,11 @@ nav {
 
 .projects-container{
   text-align: center;
-  width: 118rem;
+  width: auto;
   padding: 1rem;
+  margin: auto;
 }
-z
+
 .projects-container p {
   padding: 0.4rem;
 }
@@ -381,7 +382,7 @@ footer {
     flex-direction: column;
   }
   .projects-container{
-    width: 30.875rem;
+    width: 20.875rem;
     
   }
   .contact-form-container{
