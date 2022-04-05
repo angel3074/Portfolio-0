@@ -201,10 +201,11 @@ nav {
 
 .projects-container{
   text-align: center;
-  width: 118rem;
+  width: auto;
   padding: 1rem;
+  margin: auto;
 }
-z
+
 .projects-container p {
   padding: 0.4rem;
 }
@@ -339,4 +340,68 @@ footer {
   nav ul.show{
     transform: translateX(0);
   }
+  .hero{
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+  .more-about{
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+  }
+  .more-about h2{
+    text-align: center;
+
+  }
+  .more-about p{
+    text-align: justify;
+
+  }
+  .bio{
+    margin-top: -4rem;
+    width: 20.5rem;
+    text-align: justify;
+    padding: 2rem;
+  }
+  .bio h2{
+    text-align: center;
+  }
+  .hero-img{
+    margin-top: 1rem;
+    height: 25rem;
+    width: 30rem;
+  }
+  .skills{
+    flex-direction: column;
+  }
+  .icon{
+    width: 7.875rem;
+    height: 7.25rem;
+  }
+  .projects-container{
+    flex-direction: column;
+  }
+  .projects-container{
+    width: 20.875rem;
+    
+  }
+  .contact-form-container{
+    max-width: 23rem;
+  }
+}
+
+@media screen and (max-width){
+ .hero-img{
+   height: 37.5rem;
+   width: 23rem;
+ } 
+ .bio {
+   width: 18.3rem;
+ }
+ .projects-container{
+   width: 17.875rem;
+ }
+ .contact-form-container{
+   max-width: 17.75rem;
+ }
 }
